@@ -1,19 +1,6 @@
+
 import React from "react";
 import reactDOM from "react-dom";
-/*
-//VARIABLES
-var fname = "Tom";
-var lname = "Sawyer";
-var c= "V";
-reactDOM.render(
-  <div>
-    <h1>Hi, my first name is {fname + " " + lname}.</h1>
-    <h1>I study in {c}th standard</h1>
-  </div>,
-  document.getElementById("root")
-);
-
-*/
 
 var d= new Date();
 var y=d.getFullYear();
@@ -24,3 +11,17 @@ reactDOM.render(
 document.getElementById('root')
 );
 
+
+import React from "react";
+import reactDOM from "react-dom";
+
+var fname = "Tom";
+var lname = "Sawyer";
+var c= "V";
+reactDOM.render(
+  <div>
+    <h1>Hi, my first name is {fname + " " + lname}.</h1>
+    <h1>I study in {c}th standard</h1>
+  </div>,
+  document.getElementById("root")
+);
