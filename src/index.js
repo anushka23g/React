@@ -1,13 +1,12 @@
 import React from "react";
 import reactDOM from "react-dom";
-
-var fname = "Tom";
-var lname = "Sawyer";
-var c= "V";
+var url = "https://picsum.photos/id/237/200/300";
 reactDOM.render(
   <div>
-    <h1>Hi, my first name is {fname + " " + lname}.</h1>
-    <h1>I study in {c}th standard.</h1>
+    <p className="color" contentEditable="true">
+      My fav Food
+    </p>
+    <img src={url} />
   </div>,
   document.getElementById("root")
 );
