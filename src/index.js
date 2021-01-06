@@ -1,6 +1,20 @@
 
 import React from "react";
 import reactDOM from "react-dom";
+var url = "https://picsum.photos/id/237/200/300";
+reactDOM.render(
+  <div>
+    <p className="color" contentEditable="true">
+      My fav Food
+    </p>
+    <img src={url} />
+  </div>,
+  document.getElementById("root")
+);
+=======
+
+import React from "react";
+import reactDOM from "react-dom";
 
 reactDOM.render(
   <div>
@@ -58,4 +72,3 @@ reactDOM.render(
   </div>,
   document.getElementById("root")
 );
-
