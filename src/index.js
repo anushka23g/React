@@ -5,12 +5,13 @@ var url = "https://picsum.photos/id/237/200/300";
 reactDOM.render(
   <div>
     <p className="color" contentEditable="true">
-      My fav Food
+      My fav
     </p>
     <img src={url} />
   </div>,
   document.getElementById("root")
 );
+
 =======
 
 import React from "react";
