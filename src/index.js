@@ -1,13 +1,14 @@
 import React from "react";
 import reactDOM from "react-dom";
+var url = "https://picsum.photos/id/237/200/300";
 
-var fname = "Tom";
-var lname = "Sawyer";
-var c= "V";
+const state = {
+  color: "blue",
+  backgroundColor: "red"
+};
 reactDOM.render(
   <div>
-    <h1>Hi, my first name is {fname + " " + lname}.</h1>
-    <h1>I study in {c}th standard.</h1>
+    <h1 style={state}>It's me!</h1>
   </div>,
   document.getElementById("root")
 );
