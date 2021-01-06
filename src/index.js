@@ -1,13 +1,29 @@
+//JSX- Challenge- Functions
 import React from "react";
 import reactDOM from "react-dom";
 
-var fname = "Tom";
-var lname = "Sawyer";
-var c= "V";
+function Heading()
+{
+return <h1>Hey, it's me again</h1>;
+}
+
+function List()
+{
+return <div>
+  <p>i like:</p>
+<ul>
+  <li>gta</li>
+  <li>fifa</li>
+  <li>tekken</li>
+</ul>
+</div>;
+}
+
 reactDOM.render(
   <div>
-    <h1>Hi, my first name is {fname + " " + lname}.</h1>
-    <h1>I study in {c}th standard.</h1>
-  </div>,
-  document.getElementById("root")
-);
+<Heading/>
+<List/>
+</div>
+  ,
+document.getElementById('root')
+)
