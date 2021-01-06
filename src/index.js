@@ -1,3 +1,17 @@
+
+import React from "react";
+import reactDOM from "react-dom";
+
+var d= new Date();
+var y=d.getFullYear();
+
+reactDOM.render(
+<div><h1>the year is {y}</h1>
+</div>,
+document.getElementById('root')
+);
+
+
 import React from "react";
 import reactDOM from "react-dom";
 
