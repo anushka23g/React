@@ -26,7 +26,7 @@ return (
       <h2>{"welcome " + fn + " "+ ln}</h2>
       <form>
         <input type="text" onChange={changef} placeholder="fname" value={fn} />
-        <input type="text" onChange={changel} placeholder="lname" vaue={ln}/>
+        <input type="text" onChange={changel} placeholder="lname" value={ln}/>
       <input type="submit" onClick={subm} />
  </form>
     </div>
